@@ -9,88 +9,138 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 <body>
-    <nav>
-        <div class="nav-wrapper">
-          <a href="#" class="brand-logo center"><img class="responsive-img" src="img/logo.png" width="250px" height="200px"></a>
-          <ul id="nav-mobile" class="left hide-on-med-and-down">
-            
-          </ul>
-        </div>
-    </nav>
+    
+  <nav>
+    <div class="nav-wrapper">
+      <a href="#!" class="brand-logo">MENÚ</a>
+      <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="sass.html">Sass</a></li>
+        <li><a href="badges.html">Components</a></li>
+        <li><a href="collapsible.html">Javascript</a></li>
+        <li><a href="mobile.html">Mobile</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <ul class="sidenav" id="mobile-demo">
+    <li><a href="index.html">Sass</a></li>
+    <li><a href="badges.html">Components</a></li>
+    <li><a href="collapsible.html">Javascript</a></li>
+    <li><a href="mobile.html">Mobile</a></li>
+  </ul>
+  <div class="row">
+      <center>
+          <p><img class="responsive-img " src="img/logo.png" alt="logo" width="150px" height="100px"></p>
+      </center>
+  </div>
+          
     <div class="container">
-        <div class="hijo">
-            <ul class="tabs tabs-fixed-width tab-demo z-depth-1">
-                <li class="tab"><a class="active" href="#test1">ENTRADAS</a></li>
-                <li class="tab"><a href="#test2">COMIDAS</a></li>
-                <li class="tab"><a href="#test3">BEBIDAS</a></li>   
-            </ul>
-            <div id="test1" class="col s12">
-                <div class="col s12 m6">    
-                    <div class="card">
-                        <div class="card-image waves-effect waves-block waves-light">
-                            <img class="activator" src="img/nachos.jpeg">
+        <ul class="collapsible popout">
+            <li>
+                <div class="collapsible-header"><i class="material-icons">restaurant</i>ENTRADAS</div>
+                <div class="collapsible-body">
+                    <div class="row">
+                        <div class="col s6">
+                            <div class="card small">
+                                <div class="card-image waves-effect waves-block waves-light">
+                                    <img class="activator" src="img/nachos.jpeg">
+                                </div>
+                                <div class="card-content">
+                                    <span class="card-title activator grey-text text-darken-4">Nachos Sanchos<i class="material-icons right">more_vert</i></span>
+                                    <p><a href="#">Precio: <b>$180.00</b></a></p>
+                                </div>
+                                <div class="card-reveal">
+                                    <span class="card-title grey-text text-darken-4">Nachos Sanchos<i class="material-icons right">close</i></span>
+                                    <p>Deliciosa mezcla de arrachera, queso amarallo, guacamole, pico de gallo, crema y totopos.</p>
+                                </div>
+                            </div>
                         </div>
-                        <div class="card-content">
-                            <span class="card-title activator grey-text text-darken-4">Nachos Sanchos<i class="material-icons right">more_vert</i></span>
-                            <p><a href="#">Precio: <b>$180.00</b></a></p>
-                        </div>
-                        <div class="card-reveal">
-                            <span class="card-title grey-text text-darken-4">Nachos Sanchos<i class="material-icons right">close</i></span>
-                            <p>Deliciosa mezcla de arrachera, queso amarallo, guacamole, pico de gallo, crema y totopos.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col s12 m6">    
-                    <div class="card">
-                        <div class="card-image waves-effect waves-block waves-light">
-                            <img class="activator" src="img/alitas.jpeg">
-                        </div>
-                        <div class="card-content">
-                            <span class="card-title activator grey-text text-darken-4">Alitas<i class="material-icons right">more_vert</i></span>
-                            <p class="activator">Ver</p>
-                        </div>
-                        <div class="card-reveal">
-                            <span class="card-title grey-text text-darken-4">Alitas<i class="material-icons right">close</i></span>
-                            <p>Deliciosa mezcla de arrachera, queso amarallo, guacamole, pico de gallo, crema y totopos.</p>
-                        </div>
-                    </div>
-                </div>
-            
-            </div>
-            <div id="test2" class="col s12">
-                <div class="col s12 m6">    
-                    <div class="card">
-                        <div class="card-image waves-effect waves-block waves-light">
-                            <img class="activator" src="img/hamburgesa.jpeg">
-                        </div>
-                        <div class="card-content">
-                            <span class="card-title activator grey-text text-darken-4">Hamburgesa<i class="material-icons right">more_vert</i></span>
-                            <p><a href="#">Precio: <b>$180.00</b></a></p>
-                        </div>
-                        <div class="card-reveal">
-                            <span class="card-title grey-text text-darken-4">Tradicional<i class="material-icons right">close</i></span>
-                            <p>Deliciosa mezcla de arrachera, queso amarallo, guacamole, pico de gallo, crema y totopos.</p>
+                        <div class="col s6">
+                            <div class="card small">
+                                <div class="card-image waves-effect waves-block waves-light">
+                                    <img class="activator" src="img/nachos.jpeg">
+                                </div>
+                                <div class="card-content">
+                                    <span class="card-title activator grey-text text-darken-4">Nachos Sanchos<i class="material-icons right">more_vert</i></span>
+                                    <p><a href="#"><b>$180.00</b></a></p>
+                                </div>
+                                <div class="card-reveal">
+                                    <span class="card-title grey-text text-darken-4">Nachos Sanchos<i class="material-icons right">close</i></span>
+                                    <p>Deliciosa mezcla de arrachera, queso amarallo, guacamole, pico de gallo, crema y totopos.</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="col s12 m6">    
-                    <div class="card">
-                        <div class="card-image waves-effect waves-block waves-light">
-                            <img class="activator" src="img/molcajete.jpeg">
+            </li>
+            <li>
+                <div class="collapsible-header"><i class="material-icons">place</i>ALITAS Y BONELESS</div>
+                <div class="collapsible-body">
+                    <h5 class=" center-align">BBQ - BUFALO <i class="small material-icons">whatshot</i> - HOT <i class="small material-icons">whatshot</i><i class="small material-icons">whatshot</i> - MANGOHABANERO <i class="small material-icons">whatshot</i><i class="small material-icons">whatshot</i><i class="small material-icons">whatshot</i></h5>
+                    <div class="card horizontal">
+                        <div class="card-image">
+                            <img class="responsive-img" src="img/alitas.jpeg">
                         </div>
-                        <div class="card-content">
-                            <span class="card-title activator grey-text text-darken-4">Molcajete<i class="material-icons right">more_vert</i></span>
-                            <p class="activator">Ver</p>
-                        </div>
-                        <div class="card-reveal">
-                            <span class="card-title grey-text text-darken-4">Alitas<i class="material-icons right">close</i></span>
-                            <p>Deliciosa mezcla de arrachera, queso amarallo, guacamole, pico de gallo, crema y totopos.</p>
+                        <div class="card-stacked">
+                            <div class="card-content">
+                                <p><b>Alitas</b></p>
+                                <ul>
+                                    <li>300gr ----- $102.00</li>
+                                    <li>600gr ----- $178.00</li>
+                                    <li>900gr ----- $250.00</li>
+                                    <li>1.2kg ----- $298.00</li>
+                                </ul>
+                                <p><b>Boneless</b></p>
+                                <ul>
+                                    <li>200gr ----- $118.00</li>
+                                    <li>400gr ----- $226.00</li>
+                                    <li>600gr ----- $322.00</li>
+                                    <li>800gr ----- $406.00</li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
+                    <p><b>Aderezo Extra $10.00</b></p>
                 </div>
-            </div>
-            <div id="test3" class="col s12"><p>Test 4</p></div>
-        </div>
+            </li>
+            <li>
+                <div class="collapsible-header"><i class="material-icons">whatshot</i>ENSALADAS</div>
+                <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+            </li>
+            <li>
+                <div class="collapsible-header"><i class="material-icons">restaurant_menu</i>PAPAS</div>
+                <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+            </li>
+            <li>
+                <div class="collapsible-header"><i class="material-icons">child_care</i>PARA NIÑOS</div>
+                <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+            </li>
+            <li>
+                <div class="collapsible-header"><i class="material-icons">grade</i>ESPECIALIDADES</div>
+                <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+            </li>
+            <li>
+                <div class="collapsible-header"><i class="material-icons">whatshot</i>HAMBURGUESAS</div>
+                <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+            </li>
+            <li>
+                <div class="collapsible-header"><i class="material-icons">local_dining</i>ALAMBRES</div>
+                <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+            </li>
+            <li>
+                <div class="collapsible-header"><i class="material-icons">wc</i>PARA COMPARTIR</div>
+                <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+            </li>
+            <li>
+                <div class="collapsible-header"><i class="material-icons">cake</i>POSTRES</div>
+                <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+            </li>
+            <li>
+                <div class="collapsible-header"><i class="material-icons">local_bar</i>BEBIDAS</div>
+                <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+            </li>
+        </ul>
     </div>
     
     
