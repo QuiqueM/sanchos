@@ -1,7 +1,5 @@
-.padre {
-    background: yellow;
-    height: 200px;
-    position: relative;
+.collapsible-body {
+    padding: 0;
   }
   
 .hijo {
