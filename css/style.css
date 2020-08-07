@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .collapsible-body {
     padding: 0;
   }
@@ -7,4 +8,15 @@
     position: relative;
     top: 50%;
     transform: translateY(15%);
+=======
+.collapsible-body {
+    padding: 0;
+  }
+  
+.hijo {
+    /*IMPORTANTE*/
+    position: relative;
+    top: 50%;
+    transform: translateY(15%);
+>>>>>>> 46d27da09a1358e9eab385a57a342a463e3a3681
 }
