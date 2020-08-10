@@ -2,9 +2,6 @@
     padding: 0;
   }
   
-.hijo {
-    /*IMPORTANTE*/
-    position: relative;
-    top: 50%;
-    transform: translateY(15%);
+.col {
+  padding: 0;
 }
